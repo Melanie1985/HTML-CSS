@@ -1,0 +1,120 @@
+/*FLEX BOX*/
+
+/*comment*/
+
+body{
+    border: 1px solid blue;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    height: 200px;
+    width: auto;
+    border: 1px solid black;
+       
+}
+
+.navigation{
+    display: flex;
+    align-items: flex-end;
+    border: 0.8px solid blue;
+}
+
+.pic {
+    
+    height: 200px;
+    width: 1030px;
+}
+
+/*Introduction section*/
+
+.introduction{
+    /* display: flex; */
+    justify-content: space-evenly;
+    border: 1 px solid black;
+}
+
+/* .div_one{ */
+    /* border: 1px solid green; */
+    /* width: 400px; */
+    /* height: auto; */
+    /* padding: 10px;  */
+
+/* } */
+
+
+
+
+/*Location section*/
+
+.location{
+
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.location p {
+    
+    font-size: 18px;
+
+}
+
+
+/*Questions section*/
+
+.questions{
+    /* display: flex; */
+    align-items: center; 
+    justify-content: space-evenly;
+    flex-flow: wrap row;
+    border: 1px solid red;
+    
+       
+}
+    
+
+
+
+
+/*SECTION FOUR*/
+
+/* .two_cols{ */
+    /* display: flex; */
+    /* flex-direction: row; */
+    
+    
+/* } */
+
+
+/* .two_columns{ */
+    /* border: 1px solid grey; */
+    /*  width: 350px; */
+    /* height: 300px; */
+/* } */
+
+/* .larger_box{ */
+    /* flex-grow: 1; */
+/* } */
+
+/* .smaller_box{ */
+    /* background-color: #b81fdfe1; */
+    /* flex-grow: 2; */
+    /* width: 300px; */
+/* } */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.footer_icons{
+    align-self: flex-end;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
