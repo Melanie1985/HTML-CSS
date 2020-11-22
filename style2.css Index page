@@ -1,7 +1,5 @@
 /*FLEX BOX*/
 
-/*comment*/
-
 body{
     border: 1px solid blue;
 }
@@ -36,17 +34,6 @@ body{
     border: 1 px solid black;
 }
 
-/* .div_one{ */
-    /* border: 1px solid green; */
-    /* width: 400px; */
-    /* height: auto; */
-    /* padding: 10px;  */
-
-/* } */
-
-
-
-
 /*Location section*/
 
 .location{
@@ -74,36 +61,6 @@ body{
        
 }
     
-
-
-
-
-/*SECTION FOUR*/
-
-/* .two_cols{ */
-    /* display: flex; */
-    /* flex-direction: row; */
-    
-    
-/* } */
-
-
-/* .two_columns{ */
-    /* border: 1px solid grey; */
-    /*  width: 350px; */
-    /* height: 300px; */
-/* } */
-
-/* .larger_box{ */
-    /* flex-grow: 1; */
-/* } */
-
-/* .smaller_box{ */
-    /* background-color: #b81fdfe1; */
-    /* flex-grow: 2; */
-    /* width: 300px; */
-/* } */
-
 .footer{
     display: flex;
     justify-content: space-between;
