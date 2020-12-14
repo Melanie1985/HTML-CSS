@@ -1,8 +1,8 @@
-function MyContact(){
-    var name = document.getElementById("Full Name").value;
-    var email = document.getElementById("Email").value;
+function myContact(){
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
-    var message = document.getElementById("Message").value;
+    var message = document.getElementById("message").value;
     var error = document.getElementById("error");
     var text;
 
@@ -27,7 +27,7 @@ if(phone.length < 10 || phone.length > 15){
   }
 
       if(message.length < 1 || message.length > 100){
-         text = "Not enough characters || Too many characters";
+         text = "Too many characters";
           error.innerHTML = text;
           return false;
   }
@@ -36,4 +36,3 @@ if(phone.length < 10 || phone.length > 15){
    return true;
    
 }
-
