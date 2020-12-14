@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/JS2.js"></script>
     <link href="css/style3.css" rel="stylesheet" type="text/css"/>
-    <title>Form examples</title>
+     <title>My Document</title> 
     
 </head>
 
@@ -12,33 +13,37 @@
    
     <div>
         <form>
-            <h1>Contact Form</h1>
+            <!-- <h1>Contact Form</h1> -->
+
+            <div id="error" class="error"></div>
+        
+    
+            <form id="form" onsubmit="return MyContact()">
+
             <div>
                 <label for="Full Name">Full name:</label><br>
-                <input type="text" placeholder="Full Name"> 
+                <input type="text" id= "Full Name" class= "text_box" placeholder="Full Name"> 
                 
             </div>
-            <!-- <div> -->
-                <!-- <input type="text" placeholder="Last Name"> -->
-            <!-- </div> -->
-
+    
             <div>
-                <label for="Email">Email address:</label><br>
-                <input type="text" placeholder="Email">
+                <label for="Email">Email address:</label><br> 
+                <input type="text" id="Email" class="text_box" placeholder="Email">
             </div>
             <div>
-                <label for="phone">Phone number:</label><br>
-                <input type="text" placeholder="Phone Number">
+                <label for="phone">Phone number:</label><br> 
+                <input type="text" id="phone" class="text_box" placeholder="Phone Number">
             </div>
 
             <div>
-                <label for="Message">Write Message Here</label><br>
-                <!-- <input type="text" placeholder="Message"> -->
-                <textarea id="Message" placeholder="user_message"></textarea>
+                <label for="Message">Write Message Here</label><br> 
+                <textarea id="Message" class="text_box" placeholder="user_message"></textarea>
 
             </div>
-            <div>
-                <input type="submit">
+            
+            <div class="button">
+                <input type="submit" class="text_box" value="submit">
             </div>
+
         </form>
     </div>
