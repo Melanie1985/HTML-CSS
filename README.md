@@ -14,3 +14,10 @@
 - CHALLENGES FACED - I stuggled to imagine what I wanted this page to look like, should I have lots of information on each exercise, what I did, how I did it or shall I jsut have images with links to all of that information.
 - HOW I OVERCAME THIS CHALLENGE - I looked at a lot of different websites with portfolios on to get some ideas and to see what looked good. I decided on having images with links to click onto as this seemed like it was the most aesthetically pleaseing thing to do.
 
+- Project No. 3 - Contact page
+- BRIEF - We were asked to continue working on our 3 page website. Create a contact us page also. 
+- USING HTML & CSS IN VISUAL STUDIO CODE
+- SUDO CODE - See each file for sudo code
+- CHALLENGES FACED - I couldn't really work out how I wanted this page to look as I wanted it to be simple and easy to use and fill out.
+- HOW I OVERCAME THIS CHALLENGE - Again I did some research and looked at how other contact forms were presented. This helped me decide on what the most important details were needed from the user. 
+
