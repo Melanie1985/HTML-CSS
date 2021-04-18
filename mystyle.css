@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #70566D; 
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+footer{
+    background-color: #7EB09B;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: #C0C5C1;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+}
+
+nav a{
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+header{
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;/*for my 'Hello' header*/
+    justify-content: center;/*keeps my 'Hello' in shot*/
+    flex-direction: column;/*keeps all my header writing in the middle of the screen*/
+
+}
+
+header::after{
+    content: '';/*changes background of header to be more dark*/
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+
+}
+
+header * {
+    position: relative;
+    z-index: 1; /*opacity of writing in my header and paragraph*/
+
+}
+
+header h1{
+    font-size: 50px;/*for Hello and More About Me*/
+    margin-bottom: 5px;
+    margin-top: 0px;
+
+}
+
+header p{
+    font-size: 20px;/*for all writin that isn't in H1 or H2*/
+    margin: 0;/*keeps all header neatly on screen*/
+    text-align: center;/*bunches all my header writing up in the centre of the screen*/
+
+}
+
+section{
+    padding: 20px; /*keeps a nice space between my paragraph and header*/
+    text-align: center;/*bunches my 2nd paragraph up together in centre of screen*/
+}
+
+section h2{
+    margin: 0;/*keeps all writing on screen*/
+}
+
+section p{
+    margin-top: 0;
+}
+
+/*Portfolio*/
+
+.portfolio-container{
+    display: flex;/*puts my boxes in a row*/
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 810px;
+    margin: 20px auto 0;
+
+}
+
+.portfolio{
+    max-width: 250px;/*max widths of my pics*/
+    margin: 10px;/*puts a space between my pics*/
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.portfolio img{
+    max-width: 100%;
+    /*max-height: auto;*/
+
+
+}
+
+.portfolio p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000;
+
+}
+
+
+
+.portfolio-tile:hover{
+    transform: scale(2.05);
+
+}
+
+nav a:hover{
+    border-bottom: 3px solid #fff;
+
+}
+
+
+
+/* Contact Form */
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  
+  label {
+    /* Uniform size & alignment */
+    
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, 
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 400px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 4px solid #999;
+  }
+  
+  input:focus, 
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 6em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 0px; 
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }  
+  
+  
+/*Social Media*/
+
+.fa{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    /*text-align: center;*/
+    border-radius: 50%;/*circular appearance*/
+    border: 3px solid #fff;
+    color: #fff;
+    /*vertical-align: middle;*/
+    /*display: inline-flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
+
+
+
+
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-twitter{
+    display: flex;
+    justify-content: center;
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github{
+    background:black;
+    color: white;
+}
+
+/*Footer*/
+
+
+.bg.pinkish{
+    background-color: #7EB09B;
+    color: #fff;
+}
+
+.fa-heart{
+    border-style: none;/*circular appearance*/
+    color:red; 
+}
